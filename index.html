@@ -29,6 +29,7 @@
     <!--    Stylesheets-->
     <!-- ===============================================-->
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i%7cMuli:400,600,700,800,900" rel="stylesheet">
+    <script src="assets/lib/jquery.mb.ytplayer/jquery.mb.YTPlayer.min.css"></script>
     <link href="assets/css/theme.css" rel="stylesheet">
 
   </head>
@@ -49,7 +50,7 @@
         </div>
       </div>
       <nav class="navbar navbar-expand-lg font-weight-semi-bold fs--1 navbar-dark py-0 navbar-theme fixed-top" style="letter-spacing:0.01em;">
-        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/traforience-t-logo.png" alt="logo" width="250" /></a>
+        <div class="container"><a class="navbar-brand" href="/"><img src="assets/img/traforience-t-logo.png" alt="logo" width="250" /></a>
           <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarStandard" aria-controls="navbarStandard" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse" id="navbarStandard">
             <ul class="navbar-nav ml-auto">
@@ -73,12 +74,17 @@
         </div>
       </nav>
 
-
       <!-- ============================================-->
       <!-- <section> begin ============================-->
       <section class="py-0 overflow-hidden" data-zanim-timeline='{"delay":0}' data-zanim-trigger="scroll">
 
-        <div class="bg-holder overlay" style="background-image:url(assets/img/traforience-cover-logo.jpg);" data-zanim-xs='{"delay":0,"ease":"Sine.easeInOut","duration":1,"from":{"scale":1.05,"alpha":0},"to":{"scale":1,"alpha":1}}'>
+        <!-- <div class="bg-holder overlay" style="background-image:url(assets/img/traforience-cover-logo.jpg);" data-zanim-xs='{"delay":0,"ease":"Sine.easeInOut","duration":1,"from":{"scale":1.05,"alpha":0},"to":{"scale":1,"alpha":1}}'>
+        </div> -->
+        <div class="bg-desktop bg-holder overlay overlay-2" style="background-image:url(assets/img/traforience-cover-logo.jpg);">
+          <div class="bg-youtube" data-property='{"videoURL":"https://youtu.be/ZAqPWRe4cTU","mute":false,"showYTLogo":true,"startAt":0,"stopAt":20}'></div>
+        </div>
+        <div class="bg-mobile bg-holder overlay overlay-2" style="background-image:url(assets/img/traforience-cover-logo.jpg);">
+          <div class="bg-youtube" data-property='{"videoURL":"https://youtu.be/EOsb75jTVWM","mute":false,"showYTLogo":true,"startAt":0,"stopAt":20}'></div>
         </div>
         <!--/.bg-holder-->
 
@@ -96,8 +102,6 @@
       </section>
       <!-- <section> close ============================-->
       <!-- ============================================-->
-
-
 
 
       <!-- ============================================-->
@@ -218,6 +222,7 @@
     <script src="assets/lib/is/is.min.js"></script>
     <script src="assets/lib/stickyfilljs/stickyfill.min.js"></script>
     <script src="assets/lib/sticky-kit/sticky-kit.min.js"></script>
+    <script src="assets/lib/jquery.mb.ytplayer/jquery.mb.YTPlayer.min.js"></script>
     <script src="assets/js/theme.js"></script>
 
   </body>
