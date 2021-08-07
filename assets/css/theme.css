@@ -14068,10 +14068,26 @@ button.bg-linkedin:focus {
   border-bottom-left-radius: 0 !important;
 }
 
+.bg-desktop {
+  display: none;
+}
+
+.bg-mobile {
+  display: block;
+}
+
 @media (min-width: 576px) {
   /*---------------------------------------------------------------
     |   Borders
     ---------------------------------------------------------------*/
+  .bg-desktop {
+      display: block;
+  }
+
+  .bg-mobile {
+    display: none;
+  }
+
   .border-sm {
     border: 1px solid #E1E1E1 !important;
   }
@@ -14194,6 +14210,14 @@ button.bg-linkedin:focus {
   /*---------------------------------------------------------------
     |   Borders
     ---------------------------------------------------------------*/
+  .bg-desktop {
+    display: block;
+  }
+    
+  .bg-mobile {
+    display: none;
+  }  
+
   .border-md {
     border: 1px solid #E1E1E1 !important;
   }
@@ -14316,6 +14340,14 @@ button.bg-linkedin:focus {
   /*---------------------------------------------------------------
     |   Borders
     ---------------------------------------------------------------*/
+  .bg-desktop {
+    display: block;
+  }
+    
+  .bg-mobile {
+    display: none;
+  }  
+  
   .border-lg {
     border: 1px solid #E1E1E1 !important;
   }
@@ -14438,6 +14470,14 @@ button.bg-linkedin:focus {
   /*---------------------------------------------------------------
     |   Borders
     ---------------------------------------------------------------*/
+  .bg-desktop {
+    display: block;
+  }
+    
+  .bg-mobile {
+    display: none;
+  }  
+  
   .border-xl {
     border: 1px solid #E1E1E1 !important;
   }
