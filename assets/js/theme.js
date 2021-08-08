@@ -1428,6 +1428,7 @@ utils.$document.ready(function () {
         autoPlay: true,
         ratio: '4/3',
         showYTLogo: false,
+        playOnlyIfVisible: true,
         containment: $this.parent(Selector.BG_HOLDER)
       }));
       $this.YTPlayer();
